@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ramenHackathon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the picture to see ramen recipe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxh-uR-FEp">
+                                <rect key="frame" x="86" y="225" width="147" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="IVb-0Z-4SH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
+                                <color key="textColor" red="0.54509803921568623" green="0.3411764705882353" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jD7-zU-BLN">
+                                <rect key="frame" x="10" y="280" width="300" height="65"/>
+                                <color key="backgroundColor" red="0.98202461004257202" green="0.78506183624267578" blue="0.27839899063110352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="3rg-XO-1Nh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
+                                <state key="normal" title="Next Picture">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextPictureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y9a-IY-ccV"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Sg-Pw-CFP">
+                                <rect key="frame" x="47.5" y="0.0" width="225" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="P5F-Ws-BIH"/>
+                                    <constraint firstAttribute="width" constant="225" id="m11-XP-gkQ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSN-Tk-5ev">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="251"/>
+                                <connections>
+                                    <action selector="imageClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a0a-IG-6kr"/>
+                                    <segue destination="yaH-Z2-xwd" kind="show" id="6wd-0g-KeQ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yummy_1" translatesAutoresizingMaskIntoConstraints="NO" id="Uam-2k-CXt">
+                                <rect key="frame" x="59" y="359" width="200" height="201"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1X-sz-Io2">
+                                <rect key="frame" x="139" y="251" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click here for Yummy!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5A-xD-9Mh">
+                                <rect key="frame" x="234" y="402" width="86" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="IA5-Tk-qyS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gpH-eI-da4">
+                                <rect key="frame" x="16" y="359" width="288" height="201"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="yummySoundButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsx-kW-Ht4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hxh-uR-FEp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="79q-zt-5oA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="b1X-sz-Io2" secondAttribute="trailing" constant="123" id="7RC-d7-6n9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gpH-eI-da4" secondAttribute="trailing" id="7Zd-jN-bpX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hxh-uR-FEp" secondAttribute="trailing" constant="71" id="9yr-iA-9DH"/>
+                            <constraint firstItem="gpH-eI-da4" firstAttribute="top" secondItem="jD7-zU-BLN" secondAttribute="bottom" constant="14" id="BTF-hw-GqT"/>
+                            <constraint firstAttribute="trailing" secondItem="XSN-Tk-5ev" secondAttribute="trailing" id="CnE-BI-mge"/>
+                            <constraint firstItem="Uam-2k-CXt" firstAttribute="top" secondItem="jD7-zU-BLN" secondAttribute="bottom" constant="14" id="DY9-I8-Fab"/>
+                            <constraint firstItem="XSN-Tk-5ev" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="I2J-cx-n20"/>
+                            <constraint firstItem="jD7-zU-BLN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="JJl-UR-D5I"/>
+                            <constraint firstItem="h5A-xD-9Mh" firstAttribute="top" secondItem="jD7-zU-BLN" secondAttribute="bottom" constant="57" id="ZfL-U9-s9w"/>
+                            <constraint firstItem="6Sg-Pw-CFP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="aAb-tN-3bl"/>
+                            <constraint firstItem="XSN-Tk-5ev" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="baQ-tg-6Mt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uam-2k-CXt" secondAttribute="trailing" constant="45" id="gM0-Er-03o"/>
+                            <constraint firstItem="jD7-zU-BLN" firstAttribute="top" secondItem="b1X-sz-Io2" secondAttribute="bottom" constant="8" id="gqD-Ah-yUl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gpH-eI-da4" secondAttribute="bottom" constant="8" id="hUd-Zl-w6I"/>
+                            <constraint firstItem="Uam-2k-CXt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="43" id="iGc-oW-JXU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h5A-xD-9Mh" secondAttribute="trailing" constant="-16" id="liG-TY-yne"/>
+                            <constraint firstItem="hxh-uR-FEp" firstAttribute="top" secondItem="6Sg-Pw-CFP" secondAttribute="bottom" id="mjm-HC-hN9"/>
+                            <constraint firstItem="jD7-zU-BLN" firstAttribute="top" secondItem="hxh-uR-FEp" secondAttribute="bottom" constant="20" id="nfX-nD-66F"/>
+                            <constraint firstItem="b1X-sz-Io2" firstAttribute="top" secondItem="XSN-Tk-5ev" secondAttribute="bottom" id="oV2-OA-u3e"/>
+                            <constraint firstItem="b1X-sz-Io2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="123" id="sgt-Du-4Z6"/>
+                            <constraint firstItem="gpH-eI-da4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vqn-G5-Kah"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h5A-xD-9Mh" secondAttribute="bottom" constant="130" id="x7q-t3-Nrb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Uam-2k-CXt" secondAttribute="bottom" constant="8" id="yOp-TW-Nfd"/>
+                            <constraint firstItem="6Sg-Pw-CFP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ydE-Cy-dW9"/>
+                            <constraint firstAttribute="trailing" secondItem="jD7-zU-BLN" secondAttribute="trailing" constant="10" id="zpd-jt-AbN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clickPictureUILabel" destination="hxh-uR-FEp" id="Q1a-7c-Uee"/>
+                        <outlet property="ramenPicturesImage" destination="6Sg-Pw-CFP" id="xgm-QK-ZZh"/>
+                        <outlet property="yummyInTummyImage" destination="Uam-2k-CXt" id="1Nt-vc-rky"/>
+                        <outlet property="yummyLabel" destination="h5A-xD-9Mh" id="eT5-VP-o4u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="183"/>
+        </scene>
+        <!--Ramen Recipe View Controller-->
+        <scene sceneID="Sml-hi-kxN">
+            <objects>
+                <viewController id="yaH-Z2-xwd" customClass="ramenRecipeViewController" customModule="ramenHackathon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N8M-ui-qZK"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZMK-FG-TTE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sk8-GI-SSG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBW-Ad-JFZ">
+                                <rect key="frame" x="40" y="498" width="240" height="50"/>
+                                <color key="backgroundColor" red="0.98759061098098755" green="0.82375472784042358" blue="0.32350063323974609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kQt-VZ-ocK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
+                                <state key="normal" title="GO BACK">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.corner">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Wwd-Yt-iVB" kind="unwind" identifier="back" unwindAction="goBackUnwindWith_segue:" id="96n-eH-67E"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ravishing Ramen Recipe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5d-Ik-Xk3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="83.5"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="\" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="60" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuT-WX-QbT">
+                                <rect key="frame" x="26" y="120" width="268" height="368"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="7"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ramen emoji" translatesAutoresizingMaskIntoConstraints="NO" id="OeY-6z-Q68">
+                                <rect key="frame" x="255" y="35" width="70" height="73"/>
+                                <color key="backgroundColor" red="0.92382366931731652" green="0.96433604111405835" blue="0.92275911308089709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="7sn-4g-xcs"/>
+                                    <constraint firstAttribute="width" constant="70" id="few-OY-3Ih"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yBW-Ad-JFZ" firstAttribute="leading" secondItem="Sk8-GI-SSG" secondAttribute="leadingMargin" constant="24" id="2ND-ze-0pd"/>
+                            <constraint firstItem="yBW-Ad-JFZ" firstAttribute="top" secondItem="TuT-WX-QbT" secondAttribute="bottom" constant="10" id="7HU-K7-6xu"/>
+                            <constraint firstItem="H5d-Ik-Xk3" firstAttribute="centerX" secondItem="Sk8-GI-SSG" secondAttribute="centerX" id="8XK-mK-lHM"/>
+                            <constraint firstItem="H5d-Ik-Xk3" firstAttribute="top" secondItem="Sk8-GI-SSG" secondAttribute="top" id="8kA-1Y-nRF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TuT-WX-QbT" secondAttribute="trailing" constant="10" id="KLb-qz-AeA"/>
+                            <constraint firstItem="TuT-WX-QbT" firstAttribute="top" secondItem="N8M-ui-qZK" secondAttribute="bottom" constant="100" id="WS1-t6-cpd"/>
+                            <constraint firstAttribute="trailing" secondItem="H5d-Ik-Xk3" secondAttribute="trailing" id="XcH-yL-pfW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yBW-Ad-JFZ" secondAttribute="trailing" constant="24" id="amw-7f-wyV"/>
+                            <constraint firstAttribute="trailing" secondItem="OeY-6z-Q68" secondAttribute="trailing" constant="-5" id="bVO-rn-xzy"/>
+                            <constraint firstItem="ZMK-FG-TTE" firstAttribute="top" secondItem="yBW-Ad-JFZ" secondAttribute="bottom" constant="20" id="cvc-SQ-48M"/>
+                            <constraint firstItem="H5d-Ik-Xk3" firstAttribute="leading" secondItem="Sk8-GI-SSG" secondAttribute="leading" id="ebU-SZ-TcA"/>
+                            <constraint firstItem="TuT-WX-QbT" firstAttribute="leading" secondItem="Sk8-GI-SSG" secondAttribute="leadingMargin" constant="10" id="j7O-Ja-7Mn"/>
+                            <constraint firstItem="OeY-6z-Q68" firstAttribute="top" secondItem="N8M-ui-qZK" secondAttribute="bottom" constant="15" id="w0t-Jv-qwp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="goBackButton" destination="yBW-Ad-JFZ" id="tyV-WY-gZA"/>
+                        <outlet property="ramenEmojiImage" destination="OeY-6z-Q68" id="AtB-rO-dQO"/>
+                        <outlet property="ramenRecipeLabel" destination="TuT-WX-QbT" id="Dtt-GM-3w4"/>
+                        <outlet property="titleOfRecipeLael" destination="H5d-Ik-Xk3" id="RJL-qs-R5f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F50-ty-Tay" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Wwd-Yt-iVB" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1011.5942028985507" y="181.79347826086959"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ramen emoji" width="76" height="73"/>
+        <image name="yummy_1" width="83" height="83"/>
+    </resources>
+</document>

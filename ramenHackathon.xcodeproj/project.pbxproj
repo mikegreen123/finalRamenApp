@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF94E041F2271E300806312 /* ramenRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF94E031F2271E300806312 /* ramenRecipeViewController.swift */; };
+		7BF94E061F2271EE00806312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF94E051F2271EE00806312 /* ViewController.swift */; };
+		7BF94E091F2272A800806312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF94E071F2272A800806312 /* Main.storyboard */; };
+		7BF94E0C1F2272B600806312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF94E0A1F2272B600806312 /* LaunchScreen.storyboard */; };
+		7BF94E101F22758200806312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF94E0F1F22758200806312 /* Assets.xcassets */; };
+		7BF94E161F22785E00806312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF94E151F22785E00806312 /* AppDelegate.swift */; };
+		7BF94E181F227A9000806312 /* mysound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7BF94E171F227A9000806312 /* mysound.wav */; };
+		7BF94E1A1F227A9B00806312 /* ramenrap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BF94E191F227A9B00806312 /* ramenrap.mp3 */; };
+		C9B64726BA20889398C8C5B5 /* Pods_ramenHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A330BD9BD1DCFEDA134691A /* Pods_ramenHackathon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A330BD9BD1DCFEDA134691A /* Pods_ramenHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ramenHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDF9C6D1F1E5A0B001BE10C /* ramenHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ramenHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF94E031F2271E300806312 /* ramenRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ramenRecipeViewController.swift; sourceTree = "<group>"; };
+		7BF94E051F2271EE00806312 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BF94E081F2272A800806312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF94E0B1F2272B600806312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF94E0F1F22758200806312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF94E131F22772100806312 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF94E151F22785E00806312 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BF94E171F227A9000806312 /* mysound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mysound.wav; path = wav/mysound.wav; sourceTree = "<group>"; };
+		7BF94E191F227A9B00806312 /* ramenrap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ramenrap.mp3; path = wav/ramenrap.mp3; sourceTree = "<group>"; };
+		BC29EF4F3C02304A5323BD84 /* Pods-ramenHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ramenHackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-ramenHackathon/Pods-ramenHackathon.release.xcconfig"; sourceTree = "<group>"; };
+		E29FFFA060A845AE89C8EC15 /* Pods-ramenHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ramenHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ramenHackathon/Pods-ramenHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDF9C6A1F1E5A0B001BE10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B64726BA20889398C8C5B5 /* Pods_ramenHackathon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDF9C641F1E5A0B001BE10C = {
+			isa = PBXGroup;
+			children = (
+				7BF94E191F227A9B00806312 /* ramenrap.mp3 */,
+				7BF94E171F227A9000806312 /* mysound.wav */,
+				7BF94E131F22772100806312 /* Info.plist */,
+				7BF94E0F1F22758200806312 /* Assets.xcassets */,
+				7BF94E051F2271EE00806312 /* ViewController.swift */,
+				7BF94E031F2271E300806312 /* ramenRecipeViewController.swift */,
+				7BF94E151F22785E00806312 /* AppDelegate.swift */,
+				7BF94E071F2272A800806312 /* Main.storyboard */,
+				7BF94E0A1F2272B600806312 /* LaunchScreen.storyboard */,
+				7BDF9C6E1F1E5A0B001BE10C /* Products */,
+				8ED565EAA56C3092C15AB2DE /* Pods */,
+				EFF4AAEAA061B1FB55F553D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDF9C6E1F1E5A0B001BE10C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDF9C6D1F1E5A0B001BE10C /* ramenHackathon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED565EAA56C3092C15AB2DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E29FFFA060A845AE89C8EC15 /* Pods-ramenHackathon.debug.xcconfig */,
+				BC29EF4F3C02304A5323BD84 /* Pods-ramenHackathon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFF4AAEAA061B1FB55F553D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A330BD9BD1DCFEDA134691A /* Pods_ramenHackathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDF9C6C1F1E5A0B001BE10C /* ramenHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDF9C7F1F1E5A0B001BE10C /* Build configuration list for PBXNativeTarget "ramenHackathon" */;
+			buildPhases = (
+				C9759EDF6C5DFB8A3222201F /* [CP] Check Pods Manifest.lock */,
+				7BDF9C691F1E5A0B001BE10C /* Sources */,
+				7BDF9C6A1F1E5A0B001BE10C /* Frameworks */,
+				7BDF9C6B1F1E5A0B001BE10C /* Resources */,
+				7041E3264438F4023CE40228 /* [CP] Embed Pods Frameworks */,
+				49D04EFEC511E1D0106D178E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ramenHackathon;
+			productName = ramenHackathon;
+			productReference = 7BDF9C6D1F1E5A0B001BE10C /* ramenHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDF9C651F1E5A0B001BE10C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Michael Green";
+				TargetAttributes = {
+					7BDF9C6C1F1E5A0B001BE10C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TZKG3RVR72;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BDF9C681F1E5A0B001BE10C /* Build configuration list for PBXProject "ramenHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDF9C641F1E5A0B001BE10C;
+			productRefGroup = 7BDF9C6E1F1E5A0B001BE10C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDF9C6C1F1E5A0B001BE10C /* ramenHackathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDF9C6B1F1E5A0B001BE10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF94E181F227A9000806312 /* mysound.wav in Resources */,
+				7BF94E091F2272A800806312 /* Main.storyboard in Resources */,
+				7BF94E1A1F227A9B00806312 /* ramenrap.mp3 in Resources */,
+				7BF94E0C1F2272B600806312 /* LaunchScreen.storyboard in Resources */,
+				7BF94E101F22758200806312 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49D04EFEC511E1D0106D178E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ramenHackathon/Pods-ramenHackathon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7041E3264438F4023CE40228 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ramenHackathon/Pods-ramenHackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9759EDF6C5DFB8A3222201F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDF9C691F1E5A0B001BE10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF94E161F22785E00806312 /* AppDelegate.swift in Sources */,
+				7BF94E061F2271EE00806312 /* ViewController.swift in Sources */,
+				7BF94E041F2271E300806312 /* ramenRecipeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BF94E071F2272A800806312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF94E081F2272A800806312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BF94E0A1F2272B600806312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF94E0B1F2272B600806312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDF9C7D1F1E5A0B001BE10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BDF9C7E1F1E5A0B001BE10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDF9C801F1E5A0B001BE10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29FFFA060A845AE89C8EC15 /* Pods-ramenHackathon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TZKG3RVR72;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MikeGreen.ramenHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ramenHackathon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7BDF9C811F1E5A0B001BE10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC29EF4F3C02304A5323BD84 /* Pods-ramenHackathon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TZKG3RVR72;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MikeGreen.ramenHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ramenHackathon-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDF9C681F1E5A0B001BE10C /* Build configuration list for PBXProject "ramenHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDF9C7D1F1E5A0B001BE10C /* Debug */,
+				7BDF9C7E1F1E5A0B001BE10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDF9C7F1F1E5A0B001BE10C /* Build configuration list for PBXNativeTarget "ramenHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDF9C801F1E5A0B001BE10C /* Debug */,
+				7BDF9C811F1E5A0B001BE10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BDF9C651F1E5A0B001BE10C /* Project object */;
+}
